@@ -1,0 +1,277 @@
+{
+	"title": "Capitol Riot",
+	"characters": [
+		{
+			"id": "rioters",
+			"name": "Rioters",
+			"affiliation": "rgb(204, 0, 0)",
+			"synonyms": ["proud boys", "large crowd", "mob", "ashli babbit"]
+		},
+		{
+			"id": "trump",
+			"name": "Trump",
+			"affiliation": "rgb(222, 103, 38)"
+		},
+		{
+			"id": "congress",
+			"name": "Congress",
+			"affiliation": "rgb(110, 81, 160)",
+			"synonyms": ["nancy pelosi", "house republicans", "ted cruz", "house", "senate", "mike pence", "james lankford", "pelosi", "representatives"]
+		},
+		{
+			"id": "law-enforcement",
+			"name": "Law enforcement",
+			"affiliation": "rgb(80, 115, 163)",
+			"synonyms": ["capitol police", "police", "national guard", "plainclothes officers", "officer", "sergeant-at-arms", "f.b.i.", "swat"]
+		}
+	],
+	"scenes": [
+		{
+			"characters": ["rioters"],
+			"description": "Members of the Proud Boys, a far-right group, join protesters, who had been assembled on the Capitol lawn since 10 a.m.",
+			"title": "Proud Boys",
+			"date": "2021-01-06 11:37:00",
+			"location": "Capitol"
+		},
+		{
+			"characters": ["trump"],
+			"description": "President Trump begins speaking at a rally near the White House, about a mile away from the Capitol.",
+			"title": "Rally starts",
+			"date": "2021-01-06 12:03:00",
+			"location": "Rally"
+		},
+		{
+			"characters": ["trump"],
+			"description": "Mr. Trump tells rallygoers to walk down to the Capitol. \"After this, we’re going to walk down, and I'll be there with you.\"",
+			"title": "The march begins",
+			"date": "2021-01-06 12:04:00",
+			"location": "Rally"
+		},
+		{
+			"characters": ["rioters"],
+			"description": "A video shows a large crowd walking from the rally down Constitution Avenue to the Capitol.",
+			"title": "Large crowd in motion",
+			"date": "2021-01-06 12:29:00",
+			"location": "Constitution Avenue"
+		},
+		{
+			"characters": ["rioters", "law-enforcement"],
+			"description": "Rioters violently overwhelm the police and breach the Capitol’s outermost barricade. They break through three more barriers, forcing officers back to the Capitol steps, where they now face off.",
+			"title": "Violence begins",
+			"date": "2021-01-06 12:53:00",
+			"location": "Capitol"
+		},
+		{
+			"characters": ["law-enforcement"],
+			"description": "Capitol Police in riot gear are seen arriving to reinforce the line of officers on the Capitol steps.",
+			"title": "Backup",
+			"date": "2021-01-06 12:58:00",
+			"location": "Capitol"
+		},
+		{
+			"characters": ["congress"],
+			"description": "Speaker Nancy Pelosi begins the joint session of Congress, where both chambers meet to certify the presidential vote.",
+			"title": "Session in order",
+			"date": "2021-01-06 13:03:00",
+			"location": "Capitol"
+		},
+		{
+			"characters": ["trump"],
+			"description": "Trump ends his rally speech.",
+			"title": "End of rally",
+			"date": "2021-01-06 13:12:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "Several House Republicans, backed by Senator Ted Cruz of Texas, object to certifying Arizona’s vote, sending the House and Senate to debate in separate chambers.",
+			"title": "Objection",
+			"date": "2021-01-06 13:13:00"
+		},
+		{
+			"characters": ["rioters", "law-enforcement"],
+			"description": "By the Capitol steps, rioters continue to clash with the police. By now, reinforcements from local police have arrived to help. Both sides spray chemical agents.",
+			"title": "Violence escalates",
+			"date": "2021-01-06 13:15:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "The Senate and House debates begin in their respective chambers.",
+			"title": "Debates begin",
+			"date": "2021-01-06 13:30:00"
+		},
+		{
+			"characters": ["law-enforcement"],
+			"description": "Capitol Police requests National Guard assistance as rioters outside tear through scaffolding.",
+			"title": "Help necessary",
+			"date": "2021-01-06 13:49:00"
+		},
+		{
+			"characters": ["rioters"],
+			"description": "Rioters make it past two barriers on the east side of the Capitol and can now approach the doors of the building.",
+			"title": "Closer to the building",
+			"date": "2021-01-06 13:58:00"
+		},
+		{
+			"characters": ["rioters"],
+			"description": "Another mob breaches the final barricade on the building’s west side and approaches an entrance near the Senate chamber.",
+			"title": "Final barricade",
+			"date": "2021-01-06 14:10:00"
+		},
+		{
+			"characters": ["rioters"],
+			"description": "The first rioters make it inside the Capitol building.",
+			"title": "Break-in",
+			"date": "2021-01-06 14:11:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "As Senators continue to debate, Vice President Mike Pence is ushered off the Senate floor.",
+			"title": "Mike Pence is ushered off",
+			"date": "2021-01-06 14:12:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "Senator James Lankford, Republican of Oklahoma, is interrupted on the floor of the Senate, which is called into recess. A minute later, a mob arrives steps from a door to the Senate chamber.",
+			"title": "Mob arrives",
+			"date": "2021-01-06 14:13:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "In the House Chamber on the south side of the building, Ms. Pelosi is ushered off the floor. The debate in the House continues.",
+			"title": "Nancy Pelosi is ushered off",
+			"date": "2021-01-06 14:15:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "The House goes into recess, and representatives remain in the chamber.",
+			"title": "Recess",
+			"date": "2021-01-06 14:18:00"
+		},
+		{
+			"characters": ["trump"],
+			"description": "Mr. Trump criticizes Mr. Pence on Twitter.\"Mike Pence didn’t have the courage to do what should have been done to protect our Country and our Constitution, giving States a chance to certify a corrected set of facts, not the fraudulent or inaccurate ones which they were asked to previously certify. USA demands the truth!\"",
+			"title": "Trump criticizes Pence",
+			"date": "2021-01-06 14:24:00"
+		},
+		{
+			"characters": ["rioters"],
+			"description": "Rioters breach a second entry into the building on the east side. Mr. Trump calls Senator Mike Lee, Republican of Utah, though he means to call Senator Tommy Tuberville, Republican of Alabama. Mr. Lee hands the phone to Mr. Tuberville, who tells the president that Mr. Pence had been escorted out of the chamber. Some time in the next 30 minutes, Representative Kevin McCarthy, the minority leader, calls Mr. Trump asking him to call off the riot, says another House representative Mr. McCarthy tells about the call.",
+			"title": "Rioters breach second entry",
+			"date": "2021-01-06 14:26:00"
+		},
+		{
+			"characters": ["trump", "congress"],
+			"description": "Mr. Trump calls Senator Mike Lee, Republican of Utah, though he means to call Senator Tommy Tuberville, Republican of Alabama. Mr. Lee hands the phone to Mr. Tuberville, who tells the president that Mr. Pence had been escorted out of the chamber. Some time in the next 30 minutes, Representative Kevin McCarthy, the minority leader, calls Mr. Trump asking him to call off the riot, says another House representative Mr. McCarthy tells about the call.",
+			"title": "Call",
+			"date": "2021-01-06 14:27:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "The House goes back into session, even with the mob in the building.",
+			"title": "Back into session",
+			"date": "2021-01-06 14:27:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "The House is called into a final recess. Someone yells, \"Sit down!\"",
+			"title": "\"Sit down!\"",
+			"date": "2021-01-06 14:30:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "Senators are evacuated from the Senate chamber as House members remain in theirs.",
+			"title": "Senate evacuation",
+			"date": "2021-01-06 14:31:00"
+		},
+		{
+			"characters": ["rioters", "law-enforcement"],
+			"description": "The first rioters reach a rear door of the House chamber, where members remain inside. Plainclothes officers train their guns on the door.",
+			"title": "Closer to the House",
+			"date": "2021-01-06 14:35:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "Representatives begin evacuating the House chamber.",
+			"title": "House evacuation",
+			"date": "2021-01-06 14:39:00"
+		},
+		{
+			"characters": ["rioters"],
+			"description": "Rioters reach the doors of the Speaker’s Lobby.",
+			"title": "Speaker's Lobby",
+			"date": "2021-01-06 14:42:00"
+		},
+		{
+			"characters": ["rioters", "law-enforcement"],
+			"description": "Ashli Babbitt is shot and killed by an officer as she attempts to break into the Speaker’s Lobby. The last representatives are still being evacuated.",
+			"title": "Rioter killed",
+			"date": "2021-01-06 14:44:00"
+		},
+		{
+			"characters": ["rioters"],
+			"description": "Rioters make it to the floor of the Senate chamber, where they are seen sitting at the dais and hanging from the balcony.",
+			"title": "In the Senate chamber",
+			"date": "2021-01-06 14:47:00"
+		},
+		{
+			"characters": ["law-enforcement"],
+			"description": "The D.C. National Guard is activated, but its members would not arrive at the Capitol for more than two hours.",
+			"title": "National Guard activated",
+			"date": "2021-01-06 15:04:00"
+		},
+		{
+			"characters": ["rioters"],
+			"description": "Rioters now breach a third door at the building’s southeast side.",
+			"title": "Third door breached",
+			"date": "2021-01-06 15:16:00"
+		},
+		{
+			"characters": ["law-enforcement"],
+			"description": "An F.B.I. SWAT team is seen at the building.",
+			"title": "F.B.I",
+			"date": "2021-01-06 16:14:00"
+		},
+		{
+			"characters": ["trump"],
+			"description": "Mr. Trump tweets a video in which he tells his supporters at the Capitol that he loves them.\"It was a landslide election. And everyone knows it. Especially the other side. But you have to go home. … There’s never been a time like this when such a thing happened when they could take it away from all of us. From me, from you, from our country. This was a fraudulent election. … Go home. We love you. You're very special.\"",
+			"title": "F.B.I",
+			"date": "2021-01-06 16:17:00"
+		},
+		{
+			"characters": ["law-enforcement"],
+			"description": "The sergeant-at-arms, who is responsible for the security of Congress, tells lawmakers and reporters that the Capitol is now secure. Meanwhile, members of Congress continue to shelter in largely undisclosed locations.",
+			"title": "Capitol secure",
+			"date": "2021-01-06 17:34:00"
+		},
+		{
+			"characters": ["law-enforcement"],
+			"description": "The D.C. National Guard arrives at the Capitol, swears in with the Capitol Police and begins support operations.",
+			"title": "National Guard arrives",
+			"date": "2021-01-06 17:40:00"
+		},
+		{
+			"characters": ["law-enforcement"],
+			"description": "Curfew begins in Washington, D.C. Officers arrest many who defy the order.",
+			"title": "Curfew",
+			"date": "2021-01-06 18:00:00"
+		},
+		{
+			"characters": ["trump"],
+			"description": "In a tweet, Mr. Trump once again says that the election was stolen.\"These are the things and events that happen when a sacred landslide election victory is so unceremoniously & viciously stripped away from great patriots who have been badly & unfairly treated for so long. Go home with love & in peace. Remember this day forever!\"",
+			"title": "More tweets",
+			"date": "2021-01-06 18:01:00"
+		},
+		{
+			"characters": ["law-enforcement"],
+			"description": "Capitol Police, local police and the National Guard establish a perimeter on the west side of the Capitol.",
+			"title": "Perimeter established",
+			"date": "2021-01-06 18:14:00"
+		},
+		{
+			"characters": ["congress"],
+			"description": "The Senate resumes debate over the certification of Arizona’s vote in the Senate chamber. The House would reconvene about an hour later.",
+			"title": "Debates resumed",
+			"date": "2021-01-06 20:06:00"
+		}
+	]
+}

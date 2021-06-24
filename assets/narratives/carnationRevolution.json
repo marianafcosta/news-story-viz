@@ -1,0 +1,259 @@
+{
+	"characters": [
+		{
+			"id": "oficiais-epc",
+			"name": "Oficiais da EPC",
+			"affiliation": "none"
+		},
+		{
+			"id": "augusto-laje",
+			"name": "Coronel Augusto Laje",
+			"affiliation": "none"
+		},
+		{
+			"id": "sousa-e-silva",
+			"name": "Tenente Miliciano Sousa e Silva",
+			"affiliation": "none"
+		},
+		{
+			"id": "ribeiro-sardinha",
+			"name": "Tenente Ribeiro Sardinha",
+			"affiliation": "none"
+		},
+		{
+			"id": "balula-cid",
+			"name": "Tenente Balula Cid",
+			"affiliation": "none"
+		},
+		{
+			"id": "ramos-cadete",
+			"name": "Tenente Ramos Cadete",
+			"affiliation": "none"
+		},
+		{
+			"id": "silva-aparicio",
+			"name": "Tenente Silva Aparício",
+			"affiliation": "none"
+		},
+		{
+			"id": "graduados-epc",
+			"name": "Graduados milicianos da EPC",
+			"affiliation": "none"
+		},
+		{
+			"id": "militares-epc",
+			"name": "Militares EPC",
+			"affiliation": "none"
+		},
+		{
+			"id": "pedro-aguiar",
+			"name": "Capitão Tirocinante Pedro Aguiar",
+			"affiliation": "none"
+		},
+		{
+			"id": "salgueiro-maia",
+			"name": "Capitão Salgueiro Maia",
+			"affiliation": "none"
+		},
+		{
+			"id": "oscar-david",
+			"name": "Alferes Miliciano Óscar David",
+			"affiliation": "none"
+		},
+		{
+			"id": "tavares-martins",
+			"name": "Capitão Tirocinante Tavares Martins",
+			"affiliation": "none"
+		},
+		{
+			"id": "garcia-correia",
+			"name": "Capitão Garcia Correia",
+			"affiliation": "none"
+		},
+		{
+			"id": "henrique-sanches",
+			"name": "Tenente-coronel Henrique Sanches",
+			"affiliation": "none"
+		},
+		{
+			"id": "correia-bernardo",
+			"name": "Major Costa Ferreira",
+			"affiliation": "none"
+		},
+		{
+			"id": "costa-ferreira",
+			"name": "Capitão Correia Bernardo",
+			"affiliation": "none"
+		},
+		{
+			"id": "zeca-afonso",
+			"name": "Zeca Afonso",
+			"affiliation": "none"
+		},
+		{
+			"id": "rui-costa-ferreira",
+			"name": "Major Rui Costa Ferreira",
+			"affiliation": "none"
+		},
+		{
+			"id": "tavares-de-almeida",
+			"name": "Capitão Tavares de Almeida",
+			"affiliation": "none"
+		},
+		{
+			"id": "santos-silva",
+			"name": "Tenente Santos Silva",
+			"affiliation": "none"
+		}
+	],
+	"scenes": [
+		{
+			"characters": ["oficiais-epc"],
+			"description": "Os oficiais da EPC iniciam nas paradas, no maior sigilo, os contactos com a cerca de meia centena de graduados, dando-lhes conta de que se a senha E Depois do Adeus, e a contra-senha Grândola, Vila Morena, fossem para o ar, a operação decorreria na madrugada do dia 25 de Abril - Dia D. Apenas seis oficiais milicianos e três furriéis milicianos estavam, até essa altura, ao corrente da preparação do golpe.",
+			"title": "Contactos",
+			"date": "1974-04-24 08:30:00",
+			"location": "EPC"
+		},
+		{
+			"characters": ["augusto-laje"],
+			"description": "Saída para Lisboa do comandante da EPC, coronel Augusto Laje, para ir a uma consulta médica.",
+			"title": "Consulta",
+			"date": "1974-04-24 11:30:00",
+			"location": "EPC"
+		},
+		{
+			"characters": ["sousa-e-silva"],
+			"description": "Render da parada na EPC. Entra de oficial de dia à unidade, o tenente miliciano Sousa e Silva.",
+			"title": "Render da parada",
+			"date": "1974-04-24 13:30:00",
+			"location": "EPC"
+		},
+		{
+			"characters": ["ribeiro-sardinha"],
+			"description": "O tenente Ribeiro Sardinha, que tinha por missão 'vigiar' o comandante da EPC, constata não poder vir a cumprir a missão, por ausência do vigiado.",
+			"title": "Sem missão",
+			"date": "1974-04-24 14:00:00",
+			"location": "EPC"
+		},
+		{
+			"characters": ["balula-cid", "ramos-cadete", "silva-aparicio"],
+			"description": "Toca à ordem na EPC. Os tenentes Balula Cid, Ramos Cadete e Silva Aparício saem da EPC e dirigem-se ao RC7 e PM, em Lisboa, com a missão de 'controlar' - 'aliciar' alguns oficiais e tentar 'inoperacionalizar' algumas viaturas blindadas destes regimentos.",
+			"title": "Comando",
+			"date": "1974-04-24 17:00:00"
+		},
+		{
+			"characters": ["graduados-epc"],
+			"description": "Os graduados milicianos da EPC ultimam os preparativos para a operação, designadamente quanto a material e equipamentos.",
+			"title": "Material",
+			"date": "1974-04-24 17:30:00"
+		},
+		{
+			"characters": ["militares-epc"],
+			"description": "Fecho da porta de armas na EPC. Os militares contactados fazem a sua entrada trajando à civil, para não aguçar ainda mais a curiosidade dos elementos da PIDE/DGS.",
+			"title": "Desfardados",
+			"date": "1974-04-24 21:30:00"
+		},
+		{
+			"characters": ["sousa-e-silva", "pedro-aguiar"],
+			"description": "O tenente miliciano Sousa e Silva, oficial de dia à unidade, é substituído pelo capitão tirocinante Pedro Aguiar, para poder tomar parte na operação.",
+			"title": "Mudança",
+			"date": "1974-04-24 21:45:00"
+		},
+		{
+			"characters": ["zeca-afonso"],
+			"description": "Leite de Vasconcelos põe no ar o Grândola, Vila Morena, de Zeca Afonso, no programa Limite. A contra-senha era o sinal para se avançar para a execução da operação Fim Regime. Pela primeira vez, os contactos vão deixar de ser feitos clandestinamente.",
+			"title": "Senha",
+			"date": "1974-04-25 00:20:00"
+		},
+		{
+			"characters": ["salgueiro-maia"],
+			"description": "O capitão Salgueiro Maia, que irá comandar a coluna militar da EPC, na operação Fim Regime, dá início a um ponto da situação para dar a conhecer a ordem de operações, distribuir missões e definir detalhes para o desencadear da operação.",
+			"title": "Ponto da situação",
+			"date": "1974-04-24 22:00:00"
+		},
+		{
+			"characters": ["militares-epc"],
+			"description": "É montada segurança reforçada à EPC, incluindo rondas.",
+			"title": "Segurança",
+			"date": "1974-04-24 22:30:00"
+		},
+		{
+			"characters": ["militares-epc"],
+			"description": "Nos quartos, preparam-se os rádios para sintonizar os Emissores Associados de Lisboa (EAL), onde, se tudo estiver a 'correr bem', João Paulo Diniz irá pôr a tocar o E Depois do Adeus, de Paulo de Carvalho, senha da operação Fim Regime.",
+			"title": "Ansiedade",
+			"date": "1974-04-24 22:50:00"
+		},
+		{
+			"characters": ["militares-epc"],
+			"description": "Os EAL transmitem a canção E Depois do Adeus. É o frenesim. A senha significava que, até àquele momento, nada obstava ao avanço da operação em todo o país.",
+			"title": "Frenesim",
+			"date": "1974-04-24 22:55:00"
+		},
+		{
+			"characters": ["oscar-david", "tavares-martins"],
+			"description": "No destacamento militar da EPC, onde funcionavam três esquadrões de instrução do CSM, o oficial de dia ao destacamento, alferes miliciano Óscar David, é substituído pelo capitão tirocinante Tavares Martins, para ficar liberto para tomar parte da operação.",
+			"title": "Substituição",
+			"date": "1974-04-24 23:00:00"
+		},
+		{
+			"characters": [
+				"garcia-correia",
+				"henrique-sanches",
+				"pedro-aguiar",
+				"correia-bernardo"
+			],
+			"description": "O capitão Garcia Correia chega à porta de armas da EPC, acompanhado do segundo-comandante, tenente-coronel Henrique Sanches, que nessa noite havia convidado para jantar em sua casa, para o aliciar para o Movimento, tarefa que se veio a revelar infrutífera. O segundo-comandante da EPC, ao constatar que o oficial de dia à unidade já não é o mesmo, dá ordens ao capitão Aguiar para que tire imediatamente o braçal. Não é obedecido. O episódio decorre sob o olhar do capitão Correia Bernardo, oficial da EPC do Movimento, que tinha mandado fazer a troca de oficiais de dia.",
+			"title": "Segundo-comandante",
+			"date": "1974-04-24 23:25:00"
+		},
+		{
+			"characters": [
+				"henrique-sanches",
+				"costa-ferreira",
+				"garcia-correia",
+				"pedro-aguiar",
+				"correia-bernardo",
+				"ribeiro-sardinha"
+			],
+			"description": "O segundo-comandante da EPC convoca para o seu gabinete o major Costa Ferreira, o capitão Garcia Correia, o capitão Correia Bernardo, o capitão Pedro Aguiar, e o tenente Ribeiro Sardinha. O segundo-comandante tenta demover os presentes da acção a empreender. Os oficiais presentes reafirmam a sua determinação e informam o segundo-comandante que todos os oficiais presentes nessa noite na EPC aderiram ao Movimento. O segundo-comandante pede para esses oficiais irem ao seu gabinete.",
+			"title": "Reunião",
+			"date": "1974-04-24 23:30:00"
+		},
+		{
+			"characters": ["militares-epc"],
+			"description": "Aguarda-se ansiosamente que a Rádio Renascença ponha no ar a contra-senha da operação.",
+			"title": "À espera",
+			"date": "1974-04-24 23:55:00"
+		},
+		{
+			"characters": ["henrique-sanches", "oficiais-epc"],
+			"description": "Reunião do segundo-comandante com os oficiais da EPC aderentes ao Movimento, que enchem por completo o gabinete. O seu elevado número apanha de surpresa o segundo-comandante, que insiste em não querer aderir.",
+			"title": "Surpresa",
+			"date": "1974-04-25 00:30:00"
+		},
+		{
+			"characters": ["henrique-sanches", "salgueiro-maia", "oficiais-epc"],
+			"description": "O capitão Salgueiro Maia propõe que se acabe a reunião, pois ainda há muita coisa a fazer e não se pode perder mais tempo.",
+			"title": "O tempo urge",
+			"date": "1974-04-25 00:45:00"
+		},
+		{
+			"characters": ["rui-costa-ferreira", "oficiais-epc"],
+			"description": "O major Rui Costa Ferreira, como oficial de patente mais elevada, pertencente ao Movimento, assume o comando da unidade.",
+			"title": "Novo comando",
+			"date": "1974-04-25 01:00:00"
+		},
+		{
+			"characters": ["tavares-de-almeida", "santos-silva"],
+			"description": "Os comandantes dos esquadrões de Atiradores, capitão Tavares de Almeida, e Reconhecimento Blindado, tenente Santos Silva, reúnem-se com os seus graduados.",
+			"title": "Instruções",
+			"date": "1974-04-25 01:15:00"
+		},
+		{
+			"characters": ["salgueiro-maia", "militares-epc"],
+			"description": "O capitão Salgueiro Maia manda acordar todo o pessoal da EPC e formar na parada Môngua.",
+			"title": "Despertar",
+			"date": "1974-04-25 01:30:00"
+		}
+	]
+}

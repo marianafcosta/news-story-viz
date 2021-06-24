@@ -1,0 +1,117 @@
+{
+	"characters": [
+		{
+			"id": "formiga",
+			"name": "Formiga",
+			"affiliation": "none"
+		},
+		{
+			"id": "pomba",
+			"name": "Pomba",
+			"affiliation": "none"
+		},
+		{
+			"id": "cacador",
+			"name": "Caçador",
+			"affiliation": "none"
+		}
+	],
+	"scenes": [
+		{
+			"characters": ["formiga"],
+			"description": "A formiga estava junto a um regato.",
+			"title": "Formiga no regato",
+			"location": "Regato"
+		},
+		{
+			"characters": ["formiga"],
+			"description": "A formiga foi apanhada pela corrente.",
+			"title": "Formiga na corrent",
+			"location": "Regato"
+		},
+		{
+			"characters": ["pomba"],
+			"description": "Uma pomba estava pousada numa árvore sobre a água.",
+			"title": "Pomba em repouso",
+			"location": "Regato"
+		},
+		{
+			"characters": ["pomba", "formiga"],
+			"description": "A pomba viu que a formiga estava quase a afogar-se.",
+			"title": "Pomba repara",
+			"location": "Regato"
+		},
+		{
+			"characters": ["pomba", "formiga"],
+			"description": "A pomba teve pena da formiga.",
+			"title": "Pomba tem pena",
+			"location": "Regato"
+		},
+		{
+			"characters": ["pomba", "formiga"],
+			"description": "A pomba atirou-lhe uma folha.",
+			"title": "Pomba ajuda a formiga",
+			"location": "Regato"
+		},
+		{
+			"characters": ["formiga"],
+			"description": "A formiga subiu para a folha.",
+			"title": "Formiga na folha",
+			"location": "Regato"
+		},
+		{
+			"characters": ["formiga"],
+			"description": "A formiga flutuou em segurança para a margem do regato.",
+			"title": "De volta à margem",
+			"location": "Regato"
+		},
+		{
+			"characters": ["cacador"],
+			"description": "Apareceu um caçador.",
+			"title": "Caçador",
+			"location": "Regato"
+		},
+		{
+			"characters": ["cacador", "pomba"],
+			"description": "O caçador apontou para a Pomba.",
+			"title": "Pomba em perigo",
+			"location": "Regato"
+		},
+		{
+			"characters": ["formiga"],
+			"description": "A formiga percebeu o que estava a acontecer.",
+			"title": "Formiga retribui",
+			"location": "Regato"
+		},
+		{
+			"characters": ["formiga", "cacador"],
+			"description": "A formiga picou-o no pé.",
+			"title": "Caçador atacado",
+			"location": "Regato"
+		},
+		{
+			"characters": ["cacador"],
+			"description": "O caçador sentiu a dor da picada.",
+			"title": "Caçador em dor",
+			"location": "Regato"
+		},
+		{
+			"characters": ["cacador"],
+			"description": "O caçador moveu-se ruidosamente.",
+			"title": "Movimento do caçador",
+			"location": "Regato"
+		},
+		{
+			"characters": ["pomba"],
+			"description": "A pomba voou para longe.",
+			"title": "Voo da pomba",
+			"location": "Regato"
+		},
+		{
+			"characters": ["pomba"],
+			"description": "A pomba salvou-se.",
+			"title": "Pomba em segurança",
+			"location": "Regato"
+		}
+	]
+}

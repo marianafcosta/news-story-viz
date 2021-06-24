@@ -1,0 +1,121 @@
+{
+	"characters": [
+		{
+			"id": "red",
+			"name": "Little Red Riding Hood",
+			"affiliation": "none"
+		},
+		{
+			"id": "mom",
+			"name": "Mother",
+			"affiliation": "none"
+		},
+		{
+			"id": "grandma",
+			"name": "Grandmother",
+			"affiliation": "none"
+		},
+		{
+			"id": "wolf",
+			"name": "Big Bad Wolf",
+			"affiliation": "none"
+		},
+		{
+			"id": "hunter",
+			"name": "Hunter",
+			"affiliation": "none"
+		}
+	],
+	"scenes": [
+		{
+			"characters": ["red", "mom"],
+			"description": "Little Red Riding Hood's mother asks her to delivery some food to her sickly grandmother, advising her to stay strictly on the path.",
+			"title": "Request",
+			"date": "1974-04-24 08:31:00",
+			"location": "Little Red Riding Hood's House"
+		},
+		{
+			"characters": ["red", "wolf"],
+			"description": "The Big Bad Wolf spots Little Red Riding Hood in the forest and secretly stalks her.",
+			"title": "Stalking",
+			"date": "1974-04-24 08:32:00",
+			"location": "Forest"
+		},
+		{
+			"characters": ["red", "wolf"],
+			"description": "The Big Bad Wolf approaches Little Red Riding Hood, who tells him where she is going. He suggests that the girl pick some flowers as a present for her grandmother, which she does.",
+			"title": "Conversation",
+			"date": "1974-04-24 08:33:00",
+			"location": "Forest"
+		},
+		{
+			"characters": ["wolf"],
+			"description": "While Little Red Riding Hood is picking flowers, the Big Bad Wolf goes to the grandmothers' house",
+			"title": "Wolf goes to Grandmother's",
+			"date": "1974-04-24 08:34:00",
+			"location": "Forest"
+		},
+		{
+			"characters": ["wolf", "grandma"],
+			"description": "The Big Bad Wolf gains entry by pretending to be Little Red Riding Hood",
+			"title": "Wolf impersonates Little Red",
+			"date": "1974-04-24 08:35:00",
+			"location": "Grandmother's house"
+		},
+		{
+			"characters": ["wolf", "grandma"],
+			"description": "The Big Bad Wolf swallows the grandmother whole and waits for the girl, disguised as the grandmother",
+			"title": "Wolf swallows grandmother",
+			"date": "1974-04-24 08:36:00",
+			"location": "Grandmother's house"
+		},
+		{
+			"characters": ["wolf", "red"],
+			"description": "When Little Red Riding Hood arrives at her grandmother's house, she notices that her grandmother looks very strange.",
+			"title": "Little Red arrives at Grandmother's",
+			"date": "1974-04-24 08:37:00",
+			"location": "Grandmother's house"
+		},
+		{
+			"characters": ["wolf", "red"],
+			"description": "The Wolf jumps out of bed and eats her, too.",
+			"title": "Wolf swallows Little Red",
+			"date": "1974-04-24 08:38:00",
+			"location": "Grandmother's house"
+		},
+		{
+			"characters": ["wolf"],
+			"description": "The Wolf falls asleep.",
+			"title": "Wolf falls asleep",
+			"location": "Grandmother's house"
+		},
+		{
+			"characters": ["wolf", "hunter"],
+			"description": "An hunter comes to the rescue, cutting open the sleeping wolf.",
+			"title": "Hunter comes to the rescue",
+			"date": "1974-04-24 08:40:00",
+			"location": "Grandmother's house"
+		},
+		{
+			"characters": ["wolf", "hunter", "red", "grandma"],
+			"description": "Little Red Riding Hood and her grandmother emerge shaken, but unharmed.",
+			"title": "Hunter comes to the rescue",
+			"date": "1974-04-24 08:41:00",
+			"location": "Grandmother's house"
+		},
+		{
+			"characters": ["wolf", "hunter", "red", "grandma"],
+			"description": "They fill the Wolf's stomach with heavy stones.",
+			"title": "Stones",
+			"date": "1974-04-24 08:42:00",
+			"location": "Grandmother's house"
+		},
+		{
+			"characters": ["wolf"],
+			"description": "The Wolf tries to flee, but the stones cause him to collapse and die.",
+			"title": "Wolf tries to flee",
+			"date": "1974-04-24 08:43:00",
+			"location": "Grandmother's house"
+		}
+	]
+}

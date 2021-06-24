@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/news-story-viz/index.css" />
+		<title id="page-title">News Viz</title>
+	</head>
+
+	<body>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.0/es6-shim.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/pdfkit@0.10.0/js/pdfkit.standalone.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/svg-to-pdfkit@0.1.8/source.js"></script>
+		<script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+		<script src="https://d3js.org/d3.v6.min.js"></script>
+		<script type="module" src="/news-story-viz/index.js"></script>
+		<div id="about-container">
+			<div id="about">
+				<button id="about-close">Close</button>
+				<h1>News Viz</h1>
+				<hr />
+				<p>
+					Project developed for my master's dissertation, Narrative
+					Visualization of News Stories. The main goal behind the developement
+					of this tool was to explore ways in which news stories can be analysed
+					while taking into consideration elements typically associated with
+					other types of narratives (such as films or books), such as
+					characters, scenes, and locations. Simon Elvery's d3-layout-narrative
+					served as the foundation of this project. The source-code is on
+					Github. Licensed under the MIT License.
+				</p>
+			</div>
+		</div>
+		<div class="tooltip">
+			<p class="tooltip-date"></p>
+			<p class="tooltip-text"></p>
+		</div>
+		<div class="hide-sidebar-div">
+			<button id="hide-sidebar-button">Esconder barra lateral</button>
+		</div>
+		<div class="download-pdf-div">
+			<button id="button-download-storyline">Download PDF</button>
+		</div>
+		<div class="about-button-div">
+			<button id="about-button">Sobre</button>
+		</div>
+		<div class="flex layout">
+			<div id="viz-and-info" class="flex column">
+				<h2 id="viz-title">Capitol Riot</h2>
+				<div
+					id="visualization"
+					class="visualization"
+					style="overflow-x: scroll; scroll-behavior: smooth"
+				>
+					<div id="timeline-div"></div>
+				</div>
+				<div id="scene-info-container">
+					<h2 id="event-title">Selecione um evento</h2>
+					<small id="event-date"></small>
+					<small id="event-location"></small>
+					<div class="event-navigation" id="event-scroll">
+						<button id="previous-button">Evento anterior</button>
+						<button id="focus-button">Remover foco</button>
+						<button id="next-button">Próximo evento</button>
+					</div>
+					<p id="event-info">
+						Clique num evento ou no botão `Próximo evento` para consultar mais
+						informação sobre um evento em particular
+					</p>
+				</div>
+			</div>
+			<div id="options-container">
+				<div class="options">
+					<h1>News Viz</h1>
+					<div id="storyline-picker">
+						<label class="storyline-picker-label">Escolha uma história</label>
+						<select
+							name="storyline-picker-select"
+							id="storyline-picker-select"
+						></select>
+					</div>
+					<button class="block character-button" id="button-reset-storyline">
+						Reiniciar história
+					</button>
+					<hr />
+
+					<h2>
+						<span style="background-color: yellow; color: #404040"
+							>Entidades</span
+						>
+					</h2>
+					<div>
+						<div class="characters" id="characters"></div>
+						<hr />
+						<div>
+							<input type="checkbox" id="checkbox-hide-chars" />
+							<label for="checkbox-hide-chars"
+								>Esconder entidades que não estão selecionadas</label
+							>
+						</div>
+						<div>
+							<input type="checkbox" id="checkbox-include-selected" />
+							<label for="checkbox-include-selected"
+								>Incluir entidades mesmo que estas não participem na cena
+								atualmente em foco</label
+							>
+						</div>
+						<button class="block character-button" id="button-reset-chars">
+							Reiniciar seleção de entidades
+						</button>
+						<button class="block character-button" id="button-update-storyline">
+							Atualizar história de forma a incluir apenas as entidades
+							selecionadas
+						</button>
+
+						<button
+							class="block character-button"
+							id="button-select-event-chars"
+						>
+							Selecionar as entidades na cena atualmente em foco (se existir)
+						</button>
+					</div>
+					<div>
+						<div>
+							<h2>
+								<span style="background-color: yellow; color: #404040"
+									>Tempo</span
+								>
+							</h2>
+							<div class="timeline-select">
+								<div>
+									<label class="timeline-label" for="timeline-select-start"
+										>Data de início</label
+									>
+									<input id="timeline-select-start" type="datetime-local" />
+								</div>
+								<div>
+									<label class="timeline-label" for="timeline-select-end"
+										>Data de fim</label
+									>
+									<input id="timeline-select-end" type="datetime-local" />
+								</div>
+							</div>
+							<hr />
+							<div>
+								<input type="checkbox" id="timeline-hide-scenes" />
+								<label for="timeline-hide-scenes"
+									>Esconder eventos fora do intervalo temporal selecionado
+								</label>
+							</div>
+							<div>
+								<input type="checkbox" id="checkbox-space-out-events" />
+								<label for="checkbox-space-out-events"
+									>Espaçar os eventos proporcionalmente de acordo com a sua data
+								</label>
+							</div>
+							<div>
+								<input type="checkbox" id="checkbox-show-dates" />
+								<label for="checkbox-show-dates"
+									>Mostrar datas em vez de títulos da barra superior
+								</label>
+							</div>
+							<button class="block option-button" id="timeline-update">
+								Atualizar história de forma a incluir apenas os eventos dentro
+								do intervalo temporal selecionado
+							</button>
+							<button class="block option-button" id="timeline-reset">
+								Reiniciar intervalo temporal selecionado
+							</button>
+						</div>
+					</div>
+					<div>
+						<h2>
+							<span style="background-color: yellow; color: #404040"
+								>Eventos</span
+							>
+						</h2>
+						<div>
+							<div class="events" id="events"></div>
+							<hr />
+							<div>
+								<input type="checkbox" id="checkbox-hide-events" />
+								<label for="checkbox-hide-events"
+									>Esconder eventos que não incluam as entidades selecionadas
+								</label>
+							</div>
+							<div>
+								<input type="checkbox" id="checkbox-hide-unselected-events" />
+								<label for="checkbox-hide-unselected-events"
+									>Esconder eventos que não estão selecionados
+								</label>
+							</div>
+							<button
+								class="block character-button"
+								id="button-update-storyline-scenes"
+							>
+								Atualizar história de forma a incluir apenas os eventos
+								selecionados
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

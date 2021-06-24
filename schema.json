@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "News story",
+  "description": "Main story elements necessary to the creation of a storyline visualization",
+  "type": "object",
+  "properties": {
+    "title": {
+      "description": "The title of the story",
+      "type": "string"
+    },
+    "characters": {
+      "description": "Entities who participate in the story",
+      "type": "array",
+			"items": {"$ref" : "#/$defs/character"}
+    },
+    "scenes": {
+      "description": "Events in a story",
+      "type": "array",
+			"items": {"$ref" : "#/$defs/scene"}
+    }
+  },
+	"$defs": {
+    "character": {
+      "type": "object",
+      "required": [ "id", "name" ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "The ID of the entity"
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the entity"
+        },
+				"affiliation": {
+          "type": "string",
+          "description": "RGB value of the entity line in the visualization in the format 'rbg(R, G, B)'"
+        },
+				"synonyms": {
+					"type": "array",
+					"descriptions": "Other names by which this entity can be referred to in the description texts",
+          "items": {"type" : "string"}
+				}
+      }
+    },
+		"scene": {
+      "type": "object",
+      "required": [ "characters", "description", "title" ],
+      "properties": {
+        "characters": {
+          "type": "array",
+          "description": "ID's of the entities that participate in this event",
+					"items": { "type": "string"}
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of this event"
+        },
+				"title": {
+          "type": "string",
+          "description": "Title of this event"
+        },
+				"date": {
+					"type": "string",
+					"descriptions": "Date of this event. Must be in a valid date format"
+				},
+				"location": {
+					"type": "string",
+					"descriptions": "Location of this event"
+				}
+      }
+    }
+  },
+  "required": [ "title", "characters", "scenes" ]
+}
