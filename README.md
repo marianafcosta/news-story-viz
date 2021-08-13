@@ -4,6 +4,14 @@ News Story Viz is a prototype based on the [D3 Narrative Layout](https://github.
 
 ![Screenshot of the prototype](https://imgur.com/O6VzT7S.png)
 
+## Demonstration
+
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/vpcV14YP7TY" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
 ## Local installation
 
 After cloning the repository, use Python's `http.server` or any equivalent service to start a local server. 
